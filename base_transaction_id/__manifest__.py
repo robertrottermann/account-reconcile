@@ -6,14 +6,9 @@
     "author": "Camptocamp,Odoo Community Association (OCA)",
     "maintainer": "Camptocamp",
     "category": "Hidden/Dependency",
-    "depends": [
-        "sale",
-    ],
+    "depends": ["sale"],
     "website": "https://github.com/OCA/account-reconcile",
-    "data": [
-        "views/invoice.xml",
-        "views/sale.xml",
-    ],
+    "data": ["views/invoice.xml", "views/sale.xml"],
     "installable": True,
     "license": "AGPL-3",
 }
